@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+  <data>
+    <record id="res_country_municipality_action" model="ir.actions.act_window">
+      <field name="res_model">res.country.municipality</field>
+      <field name="context">{}</field>
+      <field name="target">current</field>
+      <field name="name">Municipality</field>
+      <field name="view_mode">tree,form</field>
+      <field name="domain">[]</field>
+    </record>
+  </data>
+</odoo>

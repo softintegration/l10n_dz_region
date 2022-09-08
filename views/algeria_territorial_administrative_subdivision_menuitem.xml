@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?><odoo>
+  <data>
+    <menuitem action="algeria_territorial_administrative_subdivision.res_country_municipality_action"
+              id="res_country_municipality_menu"
+              name="Municipality"
+              parent="contacts.menu_localisation"/>
+  </data>
+</odoo>

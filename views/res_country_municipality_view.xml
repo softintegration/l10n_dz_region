@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?><odoo>
+  <data>
+    <record id="res_country_municipality_tree_view" model="ir.ui.view">
+      <field name="name">res_country_municipality_tree_view</field>
+      <field name="model">res.country.municipality</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name" string="Name"/>
+          <field name="code" string="code"/>
+          <field name="state_id" string="State"/>
+          <field name="zip" string="Zip"/>
+        </tree>
+      </field>
+    </record>
+
+
+    <record id="res_country_municipality_form_view" model="ir.ui.view">
+      <field name="name">res_country_municipality_form_view</field>
+      <field name="model">res.country.municipality</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <div class="oe_button_box" name="button_box"/>
+            <group name="res_country_municipality_group">
+              <group name="res_country_municipality_group_left">
+                <field name="name" string="Name"/>
+                <field name="state_id" string="State"/>
+              </group>
+              <group name="res_country_municipality_group_right">
+                <field name="code" string="code"/>
+                <field name="zip" string="Zip"/>
+              </group>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+  </data>
+</odoo>

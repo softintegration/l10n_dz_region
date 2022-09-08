@@ -1,0 +1,110 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* algeria_territorial_administrative_subdivision
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-23 13:37+0000\n"
+"PO-Revision-Date: 2022-08-23 13:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: algeria_territorial_administrative_subdivision
+#: model:ir.model.fields,field_description:algeria_territorial_administrative_subdivision.field_res_country_municipality__code
+msgid "Code"
+msgstr "Code"
+
+#. module: algeria_territorial_administrative_subdivision
+#: model:ir.model,name:algeria_territorial_administrative_subdivision.model_res_company
+msgid "Companies"
+msgstr "Sociétés"
+
+#. module: algeria_territorial_administrative_subdivision
+#: model:ir.model.fields,field_description:algeria_territorial_administrative_subdivision.field_res_country_municipality__company_id
+msgid "Company"
+msgstr "Société"
+
+#. module: algeria_territorial_administrative_subdivision
+#: model:ir.model,name:algeria_territorial_administrative_subdivision.model_res_partner
+msgid "Contact"
+msgstr "Contact"
+
+#. module: algeria_territorial_administrative_subdivision
+#: model:ir.model.fields,field_description:algeria_territorial_administrative_subdivision.field_res_country_municipality__create_uid
+msgid "Created by"
+msgstr "Crée par"
+
+#. module: algeria_territorial_administrative_subdivision
+#: model:ir.model.fields,field_description:algeria_territorial_administrative_subdivision.field_res_country_municipality__create_date
+msgid "Created on"
+msgstr "Crée à"
+
+#. module: algeria_territorial_administrative_subdivision
+#: model:ir.model.fields,field_description:algeria_territorial_administrative_subdivision.field_res_country_municipality__display_name
+msgid "Display Name"
+msgstr "Nom à affiché"
+
+#. module: algeria_territorial_administrative_subdivision
+#: model:ir.model.fields,field_description:algeria_territorial_administrative_subdivision.field_res_country_municipality__id
+msgid "ID"
+msgstr "ID"
+
+#. module: algeria_territorial_administrative_subdivision
+#: model:ir.model.fields,field_description:algeria_territorial_administrative_subdivision.field_res_country_municipality____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: algeria_territorial_administrative_subdivision
+#: model:ir.model.fields,field_description:algeria_territorial_administrative_subdivision.field_res_country_municipality__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: algeria_territorial_administrative_subdivision
+#: model:ir.model.fields,field_description:algeria_territorial_administrative_subdivision.field_res_country_municipality__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour par"
+
+#. module: algeria_territorial_administrative_subdivision
+#: model:ir.actions.act_window,name:algeria_territorial_administrative_subdivision.res_country_municipality_action
+#: model:ir.model,name:algeria_territorial_administrative_subdivision.model_res_country_municipality
+#: model:ir.model.fields,field_description:algeria_territorial_administrative_subdivision.field_res_company__municipality_id
+#: model:ir.model.fields,field_description:algeria_territorial_administrative_subdivision.field_res_partner__municipality_id
+#: model:ir.model.fields,field_description:algeria_territorial_administrative_subdivision.field_res_users__municipality_id
+#: model:ir.ui.menu,name:algeria_territorial_administrative_subdivision.res_country_municipality_menu
+#: model_terms:ir.ui.view,arch_db:algeria_territorial_administrative_subdivision.view_company_form_inherited
+#: model_terms:ir.ui.view,arch_db:algeria_territorial_administrative_subdivision.view_partner_form_inherited
+msgid "Municipality"
+msgstr "Municipalité"
+
+#. module: algeria_territorial_administrative_subdivision
+#: model:ir.model.fields,field_description:algeria_territorial_administrative_subdivision.field_res_country_municipality__name
+#: model_terms:ir.ui.view,arch_db:algeria_territorial_administrative_subdivision.res_country_municipality_form_view
+#: model_terms:ir.ui.view,arch_db:algeria_territorial_administrative_subdivision.res_country_municipality_tree_view
+msgid "Name"
+msgstr "Nom"
+
+#. module: algeria_territorial_administrative_subdivision
+#: model:ir.model.fields,field_description:algeria_territorial_administrative_subdivision.field_res_country_municipality__state_id
+#: model_terms:ir.ui.view,arch_db:algeria_territorial_administrative_subdivision.res_country_municipality_form_view
+#: model_terms:ir.ui.view,arch_db:algeria_territorial_administrative_subdivision.res_country_municipality_tree_view
+msgid "State"
+msgstr "État"
+
+#. module: algeria_territorial_administrative_subdivision
+#: model:ir.model.fields,field_description:algeria_territorial_administrative_subdivision.field_res_country_municipality__zip
+#: model_terms:ir.ui.view,arch_db:algeria_territorial_administrative_subdivision.res_country_municipality_form_view
+#: model_terms:ir.ui.view,arch_db:algeria_territorial_administrative_subdivision.res_country_municipality_tree_view
+msgid "Zip"
+msgstr "Zip"
+
+#. module: algeria_territorial_administrative_subdivision
+#: model_terms:ir.ui.view,arch_db:algeria_territorial_administrative_subdivision.res_country_municipality_form_view
+#: model_terms:ir.ui.view,arch_db:algeria_territorial_administrative_subdivision.res_country_municipality_tree_view
+msgid "code"
+msgstr "Code"
