@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?><odoo>
   <data>
-    <menuitem action="algeria_territorial_administrative_subdivision.res_country_municipality_action"
+    <menuitem action="l10n_dz_region.res_country_municipality_action"
               id="res_country_municipality_menu"
               name="Municipality"
               parent="contacts.menu_localisation"/>

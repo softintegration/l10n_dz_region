@@ -10,17 +10,17 @@
     'qweb': [],
     'description': False,
     'images': [],
-    'version': '1.0.1',
+    'version': '1.0.1.1',
     'category': 'Base',
     'demo': [],
     'depends': ['contacts'],
-    'data': ['data/algeria_territorial_administrative_subdivision_data.xml',
+    'data': ['data/l10n_dz_region_data.xml',
              'security/ir.model.access.csv',
              'views/res_country_municipality_view.xml',
              'views/res_partner_view.xml',
              'views/res_company_view.xml',
-             'views/algeria_territorial_administrative_subdivision_action.xml',
-             'views/algeria_territorial_administrative_subdivision_menuitem.xml'
+             'views/l10n_dz_region_action.xml',
+             'views/l10n_dz_region_menuitem.xml'
              ],
     'license': 'LGPL-3',
 }
